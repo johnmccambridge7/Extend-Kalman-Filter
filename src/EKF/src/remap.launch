@@ -1,0 +1,5 @@
+<launch>
+	<node name="rplidarNode" pkg="rplidar_ros" type="rplidarNode">
+	<remap from="/scan" to="/filtered_cloud" />
+	</node>
+</launch>
